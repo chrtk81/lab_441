@@ -16,3 +16,11 @@ def gcd(a, b):
         a, b = b, a % b
     return abs(a)
 
+def five(n: int) -> bool:
+    if n <= 0:
+        return False
+        
+    while n % 5 == 0:
+        n //= 5     
+    
+    return n == 1
