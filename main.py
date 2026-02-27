@@ -1,1 +1,1 @@
-factor(n)
+factor(2)
